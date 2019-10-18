@@ -37,8 +37,8 @@
             // 
             // BTNChangeBook
             // 
-            this.BTNChangeBook.Location = new System.Drawing.Point(207, 12);
-            this.BTNChangeBook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BTNChangeBook.Location = new System.Drawing.Point(11, 597);
+            this.BTNChangeBook.Margin = new System.Windows.Forms.Padding(2);
             this.BTNChangeBook.Name = "BTNChangeBook";
             this.BTNChangeBook.Size = new System.Drawing.Size(81, 59);
             this.BTNChangeBook.TabIndex = 1;
@@ -50,7 +50,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(302, 262);
+            this.ClientSize = new System.Drawing.Size(952, 667);
             this.Controls.Add(this.BTNChangeBook);
             this.Controls.Add(this.lbBooks);
             this.Name = "LibraryForm";

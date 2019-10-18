@@ -54,3 +54,18 @@ x:\Desktop\OOP19\Library\Library\Library\obj\Debug\Library.csproj.CoreCompileInp
 x:\Desktop\OOP19\Library\Library\Library\obj\Debug\Library.csproj.CopyComplete
 x:\Desktop\OOP19\Library\Library\Library\obj\Debug\Library.exe
 x:\Desktop\OOP19\Library\Library\Library\obj\Debug\Library.pdb
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\Library.exe.config
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\Library.exe
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\Library.pdb
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\EntityFramework.dll
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\EntityFramework.SqlServer.dll
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\EntityFramework.xml
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\bin\Debug\EntityFramework.SqlServer.xml
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.csprojAssemblyReference.cache
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.LibraryForm.resources
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.Properties.Resources.resources
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.csproj.GenerateResource.cache
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.csproj.CopyComplete
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.exe
+U:\ISC OOP2\OOP2 - Projektarbete\OOP2-Projektarbete\Library\Library\obj\Debug\Library.pdb
