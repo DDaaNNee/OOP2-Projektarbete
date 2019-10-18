@@ -47,10 +47,21 @@ namespace Library
         {
             Book b = lbBooks.SelectedItem as Book;
             if (b != null)
-            {
-                b.Title = "Yoyoma koko";
+            {   // Switch för att se så att knappen fungerar flera gånger om
+                switch (b.Title)
+                {
+                    case "Yoyoma koko":
+                        b.Title = "The Count of Monte Cristo";
+                        break;
+
+                    case "The Count of Monte Cristo":
+                        b.Title = "Yoyoma koko";
+                        break;
+                }
                 bookService.Edit(b);
             }
+            // Ful-fix på att listan inte använder sig av event ÄN, för att uppdatera så att man ser om metoden överhuvudtaget fungerar.
+            ShowAllBooks(bookService.All());
         }
         
     }

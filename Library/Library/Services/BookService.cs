@@ -7,13 +7,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Library.Services
-{
-    class BookService
+{                       // La till "IService" för att kunna implementera eventet "Updated" och därigenom kunna uppdatera info.
+    class BookService : IService
     {
         /// <summary>
         /// service doesn't need a context but it needs a repository.
         /// </summary>
         BookRepository bookRepository;
+
+        public event EventHandler Updated;
 
         /// <param name="rFactory">A repository factory, so the service can create its own repository.</param>
         public BookService(RepositoryFactory rFactory)

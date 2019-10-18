@@ -37,10 +37,10 @@
             // 
             // BTNChangeBook
             // 
-            this.BTNChangeBook.Location = new System.Drawing.Point(11, 597);
+            this.BTNChangeBook.Location = new System.Drawing.Point(11, 592);
             this.BTNChangeBook.Margin = new System.Windows.Forms.Padding(2);
             this.BTNChangeBook.Name = "BTNChangeBook";
-            this.BTNChangeBook.Size = new System.Drawing.Size(81, 59);
+            this.BTNChangeBook.Size = new System.Drawing.Size(930, 64);
             this.BTNChangeBook.TabIndex = 1;
             this.BTNChangeBook.Text = "TEST: Change the book title";
             this.BTNChangeBook.UseVisualStyleBackColor = true;
