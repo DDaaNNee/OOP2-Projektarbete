@@ -10,6 +10,7 @@ namespace Library.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
 
         /// <summary>
         /// Useful for adding the book objects directly to a ListBox.

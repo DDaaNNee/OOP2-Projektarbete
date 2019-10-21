@@ -24,9 +24,22 @@ namespace Library.Models {
                 Title = "Yoyoma koko"
             };
 
+            Author jkRowling = new Author()
+            {
+                Name = "J.K Rowling"
+            };
+
+            Author stephenKing = new Author()
+            {
+                Name = "Stephen King"
+            };
+
             // Add the book to the DbSet of books.
             context.Books.Add(monteCristo);
             context.Books.Add(yoyomaKoko);
+
+            context.Author.Add(jkRowling);
+            context.Author.Add(stephenKing);
 
             // Persist changes to the database
             context.SaveChanges();
