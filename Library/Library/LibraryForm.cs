@@ -33,14 +33,14 @@ namespace Library
             ShowAllBooks(bookService.All());
         }
         // La till den här metoden för att kunna skriva ut alla författare
-        private void ShowAllAuthors(IEnumerable<Author> authors)
-        {
-            lbAuthors.Items.Clear();
-            foreach (Author author in authors)
-            {
-                lbAuthors.Items.Add(author);
-            }
-        }
+        //private void ShowAllAuthors(IEnumerable<Author> authors)
+        //{
+        //    lbAuthors.Items.Clear();
+        //    foreach (Author author in authors)
+        //    {
+        //        lbAuthors.Items.Add(author);
+        //    }
+        //}
 
         private void ShowAllBooks(IEnumerable<Book> books)
         {
