@@ -25,6 +25,7 @@
         private void InitializeComponent() {
             this.lbBooks = new System.Windows.Forms.ListBox();
             this.BTNChangeBook = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lbBooks
@@ -37,20 +38,29 @@
             // 
             // BTNChangeBook
             // 
-            this.BTNChangeBook.Location = new System.Drawing.Point(11, 592);
+            this.BTNChangeBook.Location = new System.Drawing.Point(11, 255);
             this.BTNChangeBook.Margin = new System.Windows.Forms.Padding(2);
             this.BTNChangeBook.Name = "BTNChangeBook";
-            this.BTNChangeBook.Size = new System.Drawing.Size(930, 64);
+            this.BTNChangeBook.Size = new System.Drawing.Size(183, 58);
             this.BTNChangeBook.TabIndex = 1;
             this.BTNChangeBook.Text = "TEST: Change the book title";
             this.BTNChangeBook.UseVisualStyleBackColor = true;
             this.BTNChangeBook.Click += new System.EventHandler(this.BTNChangeBook_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(200, 12);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(182, 238);
+            this.listBox1.TabIndex = 2;
             // 
             // LibraryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(952, 667);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.BTNChangeBook);
             this.Controls.Add(this.lbBooks);
             this.Name = "LibraryForm";
@@ -63,6 +73,7 @@
 
         private System.Windows.Forms.ListBox lbBooks;
         private System.Windows.Forms.Button BTNChangeBook;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
 

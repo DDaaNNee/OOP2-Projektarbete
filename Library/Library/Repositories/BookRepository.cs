@@ -14,12 +14,12 @@ namespace Library.Repositories
         {
             this.context = c;
         }
-
+        
         public IEnumerable<Book> All()
         {
             return context.Books;
         }
-
+        
         public void Edit(Book b)
         {
             // Because the object b was retrieved through the same context, we don't need to do a lookup. 
